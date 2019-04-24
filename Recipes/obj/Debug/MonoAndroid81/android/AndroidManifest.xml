@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Recipes.Recipes" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+  <uses-sdk android:minSdkVersion="25" android:targetSdkVersion="27" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:allowBackup="true" android:label="Recipes" android:icon="@drawable/recipeicon3" android:name="android.app.Application" android:debuggable="true">
+    <activity android:label="Activity4Admin" android:name="md58f97ff0ff2af968da1c55da5ee7f54a2.Activity4Admin" />
+    <activity android:label="Activity4biryani" android:name="md58f97ff0ff2af968da1c55da5ee7f54a2.Activity4biryani" />
+    <activity android:label="Activity4ClientWelcome" android:name="md58f97ff0ff2af968da1c55da5ee7f54a2.Activity4ClientWelcome" />
+    <activity android:label="Activity4eggfriedrice" android:name="md58f97ff0ff2af968da1c55da5ee7f54a2.Activity4eggfriedrice" />
+    <activity android:label="Activity4eggnoodles" android:name="md58f97ff0ff2af968da1c55da5ee7f54a2.Activity4eggnoodles" />
+    <activity android:label="Activity4fragments" android:name="md58f97ff0ff2af968da1c55da5ee7f54a2.Activity4fragments" />
+    <activity android:label="Activity4friedrice" android:name="md58f97ff0ff2af968da1c55da5ee7f54a2.Activity4friedrice" />
+    <activity android:label="Activity4login" android:name="md58f97ff0ff2af968da1c55da5ee7f54a2.Activity4login" />
+    <activity android:label="Activity4shahipaneer" android:name="md58f97ff0ff2af968da1c55da5ee7f54a2.Activity4shahipaneer" />
+    <activity android:label="Activity4signup" android:name="md58f97ff0ff2af968da1c55da5ee7f54a2.Activity4signup" />
+    <activity android:label="Activity4veggieburger" android:name="md58f97ff0ff2af968da1c55da5ee7f54a2.Activity4veggieburger" />
+    <activity android:label="Activity4welcome" android:name="md58f97ff0ff2af968da1c55da5ee7f54a2.Activity4welcome" />
+    <activity android:label="Recipes" android:name="md58f97ff0ff2af968da1c55da5ee7f54a2.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Recipes.Recipes.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.Recipes.Recipes" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

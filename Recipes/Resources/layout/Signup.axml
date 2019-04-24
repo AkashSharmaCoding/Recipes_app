@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/banner">
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:id="@+id/signupheading"
+        android:textSize="35dp"
+        android:text="Sign Up"
+        android:textStyle="bold"
+        android:textColor="#e53128" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:id="@+id/SUusername"
+        android:hint="Username"
+        android:textColorHint="#808080"
+        android:textColor="@android:color/black"
+        android:background="#ffffff"
+        android:textSize="24dp" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:id="@+id/SUemail"
+        android:hint="Email"
+        android:textColorHint="#808080"
+        android:textColor="@android:color/black"
+        android:background="#ffffff"
+        android:textSize="24dp" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:id="@+id/SUpassword"
+        android:hint="Password"
+        android:password="true"
+        android:textColorHint="#808080"
+        android:textColor="@android:color/black"
+        android:background="#ffffff"
+        android:textSize="24dp" />
+    <Button
+        android:layout_gravity="center"
+        android:text="Sign Up"
+        android:id="@+id/SUsignup"
+        android:layout_height="40dp"
+        android:layout_width="250dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@drawable/download"
+        android:layout_marginTop="130px" />
+</LinearLayout>
